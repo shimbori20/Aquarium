@@ -785,11 +785,11 @@ function onClick(e) {
       subWindow.y = y;
       subWindow.show = true;
       subWindow.texts = [
-        tmp[0].name,
-        tmp[0].contents.vf,
-        tmp[0].contents.vb,
-        tmp[0].contents.speed,
-        tmp[0].contents.acceleration,
+        "名前: " + tmp[0].name,
+        "前視野: " + tmp[0].contents.vf,
+        "後視野: " + tmp[0].contents.vb,
+        "速度: " + tmp[0].contents.speed,
+        "加速度: " + tmp[0].contents.acceleration,
       ];
     } else {
       subWindow.show = false;
