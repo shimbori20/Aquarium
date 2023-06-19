@@ -1157,7 +1157,7 @@ const subWindow = new Window(0, 0, 200, 100);
 pos.addList(WALLS4);
 makeManyFish(100, 100, CONSTSN, 1, 1, 0.5, 0, 0);
 
-makeFish(100, 100, 1.9, 1.2, 0.7, 0.5, 0.5, true);
+makeFish(100, 100, 1.1, 1.1, 0.5, 0.5, 0.5, true);
 //makeManyFish(100,100,10,1.34,0.98,0.48,0.12,1);
 //makeManyFish(100,100,1,5,50,25,1,1);
 //ctx.drawImage(chara, 10,10,100,30);
