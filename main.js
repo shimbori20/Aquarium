@@ -929,7 +929,7 @@ function makeFish(x, y, ads, advf, advb, adac, mark, isred) {
   const ac = new ActionPlan(THISACTION, null, speed);
   const vs = new Sprite(
     x,
-    y,
+    +y,
     50,
     15,
     0.2,
